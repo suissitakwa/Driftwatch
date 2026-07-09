@@ -1,0 +1,18 @@
+{
+  "name": "@driftwatch/connectors",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@driftwatch/core": "*",
+    "pg": "^8.13.0",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.0"
+  }
+}

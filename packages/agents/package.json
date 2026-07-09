@@ -1,0 +1,14 @@
+{
+  "name": "@driftwatch/agents",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@driftwatch/core": "*"
+  }
+}

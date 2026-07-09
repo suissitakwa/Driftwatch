@@ -1,0 +1,25 @@
+{
+  "name": "@driftwatch/cli",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "driftwatch": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@driftwatch/agents": "*",
+    "@driftwatch/connectors": "*",
+    "@driftwatch/core": "*",
+    "@driftwatch/diff-engine": "*",
+    "@driftwatch/report": "*",
+    "commander": "^13.0.0",
+    "pg": "^8.13.0",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.0"
+  }
+}
